@@ -5,7 +5,7 @@ import {
   Search, Plus, Minus, ShoppingCart, X, ChevronRight
 } from 'lucide-react'
 import { useApp } from '../context/AppContext'
-import { useRestaurant } from '../hooks/useRestaurants'
+import { useRestaurant } from './useRestaurants'
 
 const menuSections = ['Starters', 'Main Course', 'Desserts', 'Beverages']
 
